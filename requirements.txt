@@ -1,0 +1,2 @@
+python-socketio==5.6.0
+websocket-server==0.6.4

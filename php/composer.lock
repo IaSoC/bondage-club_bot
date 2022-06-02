@@ -1,0 +1,129 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "3a59157ef42a2ec4bec0faa5fe1b9403",
+    "packages": [
+        {
+            "name": "nullpunkt/lz-string-php",
+            "version": "1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nullpunkt/lz-string-php.git",
+                "reference": "bf4ae48f8a164bc6e95f5e7a2c6da45907ac3ba9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nullpunkt/lz-string-php/zipball/bf4ae48f8a164bc6e95f5e7a2c6da45907ac3ba9",
+                "reference": "bf4ae48f8a164bc6e95f5e7a2c6da45907ac3ba9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "monolog/monolog": "^1.17",
+                "phpunit/phpunit": "~9.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "LZCompressor\\": "src/LZCompressor"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Tobias Seipke",
+                    "email": "tobias.seipke@gmail.com",
+                    "homepage": "https://github.com/nullpunkt"
+                },
+                {
+                    "name": "Juhász Ádám",
+                    "email": "juhasz.adam@virgo.hu",
+                    "homepage": "https://github.com/JuhaszAdam"
+                }
+            ],
+            "description": "PHP Class implementation of LZ-String javascript.",
+            "support": {
+                "issues": "https://github.com/nullpunkt/lz-string-php/issues",
+                "source": "https://github.com/nullpunkt/lz-string-php/tree/1.3.0"
+            },
+            "time": "2021-06-17T07:52:00+00:00"
+        },
+        {
+            "name": "workerman/workerman",
+            "version": "v4.0.37",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/walkor/workerman.git",
+                "reference": "17937eb74526adc583a0217ba842e91d6d792576"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/walkor/workerman/zipball/17937eb74526adc583a0217ba842e91d6d792576",
+                "reference": "17937eb74526adc583a0217ba842e91d6d792576",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "suggest": {
+                "ext-event": "For better performance. "
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Workerman\\": "./"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "walkor",
+                    "email": "walkor@workerman.net",
+                    "homepage": "http://www.workerman.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "An asynchronous event driven PHP framework for easily building fast, scalable network applications.",
+            "homepage": "http://www.workerman.net",
+            "keywords": [
+                "asynchronous",
+                "event-loop"
+            ],
+            "support": {
+                "email": "walkor@workerman.net",
+                "forum": "http://wenda.workerman.net/",
+                "issues": "https://github.com/walkor/workerman/issues",
+                "source": "https://github.com/walkor/workerman",
+                "wiki": "http://doc.workerman.net/"
+            },
+            "funding": [
+                {
+                    "url": "https://opencollective.com/workerman",
+                    "type": "open_collective"
+                },
+                {
+                    "url": "https://www.patreon.com/walkor",
+                    "type": "patreon"
+                }
+            ],
+            "time": "2022-05-15T14:22:57+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}
