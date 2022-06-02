@@ -1,6 +1,6 @@
 @echo off
 :s
-python main.py
+python proxy.py
 echo ----------------------------------
 echo AutoRestartBash:Restarting...
 goto s
