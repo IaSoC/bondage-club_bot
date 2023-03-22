@@ -1,4 +1,7 @@
 /php/vendor
 /php/run.cmd
-/php/main.json
-/php/main.json.*
+/php/Archive
+/php/run.sh
+/php/bcmain.php
+/php/account.json
+__pycache__

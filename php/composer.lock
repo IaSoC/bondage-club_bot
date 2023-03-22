@@ -55,20 +55,20 @@
         },
         {
             "name": "workerman/workerman",
-            "version": "v4.0.37",
+            "version": "v4.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/walkor/workerman.git",
-                "reference": "17937eb74526adc583a0217ba842e91d6d792576"
+                "reference": "01028d8008c5691ec38c5f675fc13d76496a6db9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/walkor/workerman/zipball/17937eb74526adc583a0217ba842e91d6d792576",
-                "reference": "17937eb74526adc583a0217ba842e91d6d792576",
+                "url": "https://api.github.com/repos/walkor/workerman/zipball/01028d8008c5691ec38c5f675fc13d76496a6db9",
+                "reference": "01028d8008c5691ec38c5f675fc13d76496a6db9",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.4"
+                "php": ">=7.0"
             },
             "suggest": {
                 "ext-event": "For better performance. "
@@ -114,7 +114,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2022-05-15T14:22:57+00:00"
+            "time": "2022-09-23T14:05:12+00:00"
         }
     ],
     "packages-dev": [],
@@ -125,5 +125,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }

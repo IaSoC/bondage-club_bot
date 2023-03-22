@@ -3,6 +3,7 @@ from websocket_server import WebsocketServer
 
 sio = socketio.AsyncClient(reconnection=True)
 
+
 @sio.event
 async def connect():
     print('connected to socket.io server')
